@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Component } from 'react/cjs/react.production.min';
 import User from './User';
 
