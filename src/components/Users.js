@@ -17,15 +17,13 @@ class Users extends Component{
     }
   }
 
-  
+
 }
 
 const Users = () => {
   const [showUsers, setShowUsers] = useState(true);
 
-  const toggleUsersHandler = () => {
-    setShowUsers((curState) => !curState);
-  };
+ 
 
   const usersList = (
     <ul>
