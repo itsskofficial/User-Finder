@@ -5,7 +5,7 @@ import Users from './Users';
 
 class UserFinder extends Component{
     constructor() {
-        
+        this.state
     }
 }
 const UserFinder = () => {
