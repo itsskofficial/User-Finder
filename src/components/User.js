@@ -1,6 +1,6 @@
 import react from 'react';
 import classes from './User.module.css';
-import {Component} from react
+import {Component} from 'react'
 
 class User extends Component{
   render() {
