@@ -3,7 +3,7 @@ import { Fragment, useState, useEffect } from 'react';
 import Users from './Users';
 
 const UserFinder = () => {
-const DUMMY_USERS = [
+  const DUMMY_USERS = [
         { id: 'u1', name: 'Max' },
         { id: 'u2', name: 'Manuel' },
         { id: 'u3', name: 'Julie' },
