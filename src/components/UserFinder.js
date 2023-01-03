@@ -10,6 +10,7 @@ const DUMMY_USERS = [
 ]
 
 class UserFinder extends Component{
+    static contextType=UserCon
     constructor() {
         super()
         this.state = {
