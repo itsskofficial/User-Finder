@@ -11,8 +11,10 @@ class UserFinder extends Component{
         }
     }
 
-    searchChangeHandler() {
-        
+    searchChangeHandler(event) {
+        this.setState({
+
+        })
     }
 }
 const UserFinder = () => {
