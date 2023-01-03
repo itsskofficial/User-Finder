@@ -26,7 +26,6 @@ class UserFinder extends Component{
         if (prevState.searchTerm !== this.state.searchTerm) {
             DUMMY_USERS.filter((user) => user.name.includes(searchTerm))
         }
-        
     }
 
     render() {
