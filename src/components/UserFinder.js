@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import { Component } from 'react/cjs/react.development';
+import UsersContext from '../store/users-context';
 
 import Users from './Users';
 
@@ -10,7 +11,7 @@ const DUMMY_USERS = [
 ]
 
 class UserFinder extends Component{
-    static contextType=UserCon
+    static contextType=UsersContext
     constructor() {
         super()
         this.state = {
