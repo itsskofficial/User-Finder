@@ -20,8 +20,10 @@ class Users extends Component{
   toggleUsersHandler = () => {
     this.setState((currState) => {
       return {showUsers:!currState.showUsers}
-    });
-  };
+    })
+  }
+
+  
 
 }
 
