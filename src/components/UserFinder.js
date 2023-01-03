@@ -27,7 +27,7 @@ class UserFinder extends Component{
     }
 
     componentDidMount() {
-        
+        this.setState()
     }
 
     componentDidUpdate(prevState, prevProps) {
