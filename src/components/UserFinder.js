@@ -8,6 +8,7 @@ const DUMMY_USERS = [
     { id: 'u2', name: 'Manuel' },
     { id: 'u3', name: 'Julie' },
 ]
+
 class UserFinder extends Component{
     constructor() {
         super()
