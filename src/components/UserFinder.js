@@ -21,6 +21,13 @@ class UserFinder extends Component{
             searchTerm:event.target.value
         })
     }
+
+    render() {
+        <Fragment>
+      <input type='search' onChange={searchChangeHandler} />
+      <Users users={filteredUsers} />
+    </Fragment>
+    }
 }
 
   useEffect(() => {
