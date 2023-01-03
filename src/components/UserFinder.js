@@ -1,4 +1,4 @@
-import { Fragment, useState, useEffect } from 'react';
+import { Fragment } from 'react';
 import { Component } from 'react/cjs/react.development';
 
 import Users from './Users';
