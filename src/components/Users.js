@@ -23,7 +23,9 @@ class Users extends Component{
     })
   }
 
-  
+  render() {
+    
+  }
 
 }
 
