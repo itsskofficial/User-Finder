@@ -26,6 +26,10 @@ class UserFinder extends Component{
         })
     }
 
+    componentDidMount() {
+        
+    }
+
     componentDidUpdate(prevState, prevProps) {
         if (prevState.searchTerm !== this.state.searchTerm) {
             this.setState({
