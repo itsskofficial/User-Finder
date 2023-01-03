@@ -1,4 +1,3 @@
-import react from 'react';
 import classes from './User.module.css';
 import {Component} from 'react'
 
