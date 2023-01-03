@@ -29,12 +29,6 @@ class UserFinder extends Component{
     );
   }, [searchTerm]);
 
-  return (
-    <Fragment>
-      <input type='search' onChange={searchChangeHandler} />
-      <Users users={filteredUsers} />
-    </Fragment>
-  );
 };
 
 export default UserFinder;
