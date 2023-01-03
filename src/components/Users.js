@@ -36,18 +36,9 @@ class Users extends Component{
 
 }
 
-const Users = () => {
-  const [showUsers, setShowUsers] = useState(true);
-
  
 
-  const usersList = (
-    <ul>
-      {DUMMY_USERS.map((user) => (
-        <User key={user.id} name={user.name} />
-      ))}
-    </ul>
-  );
+  
 
   
 };
