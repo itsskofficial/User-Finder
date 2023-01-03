@@ -32,7 +32,7 @@ class UserFinder extends Component{
         }
     }
 
-    render() {
+        render() {
         return (
             <Fragment>
             <input type='search' onChange={this.searchChangeHandler.bind(this)} />
