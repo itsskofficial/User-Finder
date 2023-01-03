@@ -27,7 +27,7 @@ class UserFinder extends Component{
     }
 
     componentDidMount() {
-        this.setState({filteredUsers:this.context})
+        this.setState({filteredUsers:this.context.Users})
     }
 
     componentDidUpdate(prevState, prevProps) {
