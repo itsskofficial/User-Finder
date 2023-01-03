@@ -22,8 +22,8 @@ class UserFinder extends Component{
         })
     }
 
-    componentDidMount() {
-            
+    componentDidUpdate(prev) {
+
     }
 
     render() {
