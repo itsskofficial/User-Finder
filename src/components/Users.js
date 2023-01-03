@@ -18,7 +18,7 @@ class Users extends Component{
   }
 
   toggleUsersHandler = () => {
-    ;
+    this.setState((cu));
   };
 
 }
