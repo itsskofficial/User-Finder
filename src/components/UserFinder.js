@@ -23,10 +23,12 @@ class UserFinder extends Component{
     }
 
     render() {
-        <Fragment>
-      <input type='search' onChange={searchChangeHandler} />
-      <Users users={filteredUsers} />
-    </Fragment>
+        return (
+            <Fragment>
+            <input type='search' onChange={searchChangeHandler} />
+            <Users users={filteredUsers} />
+            </Fragment>
+        )
     }
 }
 
