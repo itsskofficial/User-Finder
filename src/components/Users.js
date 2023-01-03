@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Component } from 'react/cjs/react.production.min';
 import User from './User';
 
 import classes from './Users.module.css';
@@ -8,6 +9,8 @@ const DUMMY_USERS = [
   { id: 'u2', name: 'Manuel' },
   { id: 'u3', name: 'Julie' },
 ];
+
+class Users extends Component
 
 const Users = () => {
   const [showUsers, setShowUsers] = useState(true);
