@@ -3,7 +3,9 @@ import { Component } from 'react/cjs/react.development';
 
 import Users from './Users';
 
-class UserFinder extends Component
+class UserFinder extends Component{
+    
+}
 const UserFinder = () => {
   const DUMMY_USERS = [
         { id: 'u1', name: 'Max' },
