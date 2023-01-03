@@ -6,7 +6,8 @@ import Users from './Users';
 class UserFinder extends Component{
     constructor() {
         this.state = {
-            filteredUsers:DUMMY_USERS
+            filteredUsers:DUMMY_USERS,
+            searchTerm:''
         }
     }
 }
