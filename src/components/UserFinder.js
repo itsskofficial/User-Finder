@@ -34,7 +34,7 @@ class UserFinder extends Component{
 
   useEffect(() => {
     setFilteredUsers(
-      DUMMY_USERS.filter((user) => user.name.includes(searchTerm))
+     
     );
   }, [searchTerm]);
 
