@@ -11,7 +11,9 @@ const DUMMY_USERS = [
 ];
 
 class Users extends Component{
-  constructor()
+  constructor() {
+    this.state
+  }
 }
 
 const Users = () => {
