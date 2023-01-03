@@ -11,7 +11,9 @@ class UserFinder extends Component{
         }
     }
 
-    
+    searchChangeHandler() {
+        
+    }
 }
 const UserFinder = () => {
   const DUMMY_USERS = [
