@@ -10,6 +10,8 @@ class UserFinder extends Component{
             searchTerm:''
         }
     }
+
+    
 }
 const UserFinder = () => {
   const DUMMY_USERS = [
