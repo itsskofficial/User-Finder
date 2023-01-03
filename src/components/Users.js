@@ -26,7 +26,7 @@ class Users extends Component{
   render() {
     return (
       <div className={classes.users}>
-        <button onClick={toggleUsersHandler}>
+        <button onClick={this.toggleUsersHandler.bind(this)}>
           {showUsers ? 'Hide' : 'Show'} Users
         </button>
         {showUsers && usersList}
