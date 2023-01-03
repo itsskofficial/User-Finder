@@ -24,6 +24,9 @@ class UserFinder extends Component{
 
     componentDidUpdate(prevState, prevProps) {
         if (prevState.searchTerm !== this.state.searchTerm) {
+            this.setState({
+                
+            })
             DUMMY_USERS.filter((user) => user.name.includes(this.state.searchTerm))
         }
     }
