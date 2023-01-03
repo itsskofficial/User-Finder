@@ -7,7 +7,7 @@ const UserFinder = () => {
         { id: 'u1', name: 'Max' },
         { id: 'u2', name: 'Manuel' },
         { id: 'u3', name: 'Julie' },
-    ]
+  ]
   const [filteredUsers, setFilteredUsers] = useState(DUMMY_USERS);
   const [searchTerm, setSearchTerm] = useState('');
 
