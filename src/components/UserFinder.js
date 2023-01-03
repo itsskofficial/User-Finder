@@ -5,7 +5,9 @@ import Users from './Users';
 
 class UserFinder extends Component{
     constructor() {
-        this.state
+        this.state = {
+            filteredUsers:D
+        }
     }
 }
 const UserFinder = () => {
