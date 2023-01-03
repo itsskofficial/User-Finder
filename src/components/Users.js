@@ -12,7 +12,9 @@ const DUMMY_USERS = [
 
 class Users extends Component{
   constructor() {
-    this.state
+    this.state = {
+      
+    }
   }
 }
 
