@@ -38,12 +38,4 @@ class UserFinder extends Component{
     }
 }
 
-  useEffect(() => {
-    setFilteredUsers(
-     
-    );
-  }, [searchTerm]);
-
-};
-
 export default UserFinder;
