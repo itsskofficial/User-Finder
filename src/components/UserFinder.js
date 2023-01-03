@@ -22,7 +22,9 @@ class UserFinder extends Component{
         })
     }
 
-    com
+    componentDidMount() {
+            
+    }
 
     render() {
         return (
