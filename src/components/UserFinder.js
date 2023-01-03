@@ -13,7 +13,7 @@ class UserFinder extends Component{
 
     searchChangeHandler(event) {
         this.setState({
-
+            searchTerm:even
         })
     }
 }
