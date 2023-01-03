@@ -1,6 +1,8 @@
 import classes from './User.module.css';
 
-class User extends Component
+class User extends Component{
+  render()
+}
 const User = (props) => {
   return <li className={classes.user}>{props.name}</li>;
 };
