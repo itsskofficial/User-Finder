@@ -22,8 +22,9 @@ class UserFinder extends Component{
         })
     }
 
-    componentDidUpdate(prev) {
-
+    componentDidUpdate(prevState, prevProps) {
+        
+        DUMMY_USERS.filter((user) => user.name.includes(searchTerm))
     }
 
     render() {
