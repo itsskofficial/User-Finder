@@ -10,7 +10,9 @@ const DUMMY_USERS = [
   { id: 'u3', name: 'Julie' },
 ];
 
-class Users extends Component
+class Users extends Component{
+  constructor()
+}
 
 const Users = () => {
   const [showUsers, setShowUsers] = useState(true);
