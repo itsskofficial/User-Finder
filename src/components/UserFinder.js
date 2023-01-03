@@ -25,8 +25,8 @@ class UserFinder extends Component{
     render() {
         return (
             <Fragment>
-            <input type='search' onChange={searchChangeHandler} />
-            <Users users={filteredUsers} />
+            <input type='search' onChange={this.searchChangeHandler} />
+            <Users users={this.state.filteredUsers} />
             </Fragment>
         )
     }
