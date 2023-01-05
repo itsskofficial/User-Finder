@@ -13,7 +13,7 @@ class Users extends Component{
 
   toggleUsersHandler = () => {
     if (this.props.users.length === 0) {
-      
+      throw new Error("")
     }
     this.setState((currState) => {
       return {showUsers:!currState.showUsers}
