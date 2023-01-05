@@ -1,1 +1,5 @@
-class ErrorBoundary extends Compo
+import compo
+
+class ErrorBoundary extends Component{
+
+}
