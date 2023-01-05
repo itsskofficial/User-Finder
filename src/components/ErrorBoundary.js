@@ -12,7 +12,9 @@ class ErrorBoundary extends Component {
     }
     
     render() {
-        if (this.state.hasError==)
+        if (this.state.hasError === true) {
+            return 
+        }
         return this.props.children
     }
         
