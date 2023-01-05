@@ -4,8 +4,9 @@ class ErrorBoundary extends Component {
 
     constructor() {
         super()
-        this.state=
+        this.state={hasError:false}
     }
+    
     componentDidCatch(error) { 
         this.setState({hasError:true})
     }
