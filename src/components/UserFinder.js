@@ -42,11 +42,14 @@ class UserFinder extends Component{
         render() {
         return (
             <ErrorBoundary>
-            
+                <Fragment>
+                    <input type='search' onChange={this.searchChangeHandler.bind(this)} />
+                    <Users users={this.state.filteredUsers} />
+                </Fragment>
             </ErrorBoundary>
            
         )
     }
 }
 
-export default
+export default UserFinder;
